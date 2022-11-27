@@ -8,8 +8,8 @@ module tiny_user_project(
 );
 
 // pass input and output pins defined in user_defines.v
-user_module_334445762078310996 mod (
-    io_in[19:12],
+user_module_349472166361694804 mod (
+    io_in[19:9],
     io_out[27:20]
 );
 // all output enabled

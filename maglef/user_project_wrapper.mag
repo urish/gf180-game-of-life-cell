@@ -1,7 +1,7 @@
 magic
 tech gf180mcuC
 magscale 1 5
-timestamp 1669350355
+timestamp 1669558401
 << obsm1 >>
 rect 69422 69605 93054 91975
 << metal2 >>
@@ -683,7 +683,7 @@ rect 299760 8540 300480 8652
 rect -480 2996 240 3108
 rect 299760 2884 300480 2996
 << obsm3 >>
-rect 182 297138 299810 297850
+rect 182 297138 299810 297962
 rect 182 296970 299730 297138
 rect 270 296966 299730 296970
 rect 270 296798 299810 296966
@@ -1066,7 +1066,7 @@ rect 84517 69290 90987 92906
 rect 84517 2529 86007 69290
 rect 86377 2529 90987 69290
 rect 91357 2529 92847 93735
-rect 93217 2529 93562 93735
+rect 93217 2529 93898 93735
 << metal5 >>
 rect -4243 302917 304235 303227
 rect -3763 302437 303755 302747
@@ -3098,8 +3098,8 @@ port 645 nsew signal input
 string FIXED_BBOX 0 0 300000 300000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 3465908
-string GDS_FILE /home/runner/work/tiny_user_project/tiny_user_project/openlane/user_project_wrapper/runs/22_11_25_04_25/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 318544
+string GDS_END 3610402
+string GDS_FILE /home/runner/work/gf180-game-of-life-cell/gf180-game-of-life-cell/openlane/user_project_wrapper/runs/22_11_27_14_12/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 462462
 << end >>
 
