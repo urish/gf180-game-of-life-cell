@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Nov 28 18:18:35 2022
+[*]
+[dumpfile] "/home/uri/p/gf180-game-of-life-cell/test/cell_tb.vcd"
+[dumpfile_mtime] "Mon Nov 28 18:17:20 2022"
+[dumpfile_size] 425020
+[savefile] "/home/uri/p/gf180-game-of-life-cell/test/cell_tb.gtwk"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-12.307270 4250 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_cell.
+[sst_width] 214
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+test_cell.clk
+test_cell.reset
+test_cell.set
+@22
+test_cell.neighbors[7:0]
+@28
+test_cell.alive
+test_cell.notalive
+[pattern_trace] 1
+[pattern_trace] 0

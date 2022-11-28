@@ -18,7 +18,7 @@ COMPILE_ARGS    += -DFUNCTIONAL
 COMPILE_ARGS    += -DUSE_POWER_PINS
 COMPILE_ARGS    += -DSIM
 COMPILE_ARGS    += -DUNIT_DELAY=#1
-VERILOG_SOURCES += $(PDK_ROOT)/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v
+VERILOG_SOURCES += $(PWD)/gf180mcu_fd_sc_mcu7t5v0.v
 
 # the github action copies the gatelevel verilog from /runs/wokwi/results/final/verilog/gl/ 
 VERILOG_SOURCES += $(PWD)/cell_tb_gl.v $(PWD)/../verilog/gl/tiny_user_project.v
