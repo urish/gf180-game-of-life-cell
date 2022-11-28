@@ -1,7 +1,7 @@
 magic
 tech gf180mcuC
 magscale 1 5
-timestamp 1669558401
+timestamp 1669620310
 << obsm1 >>
 rect 69422 69605 93054 91975
 << metal2 >>
@@ -3099,7 +3099,7 @@ string FIXED_BBOX 0 0 300000 300000
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 3610402
-string GDS_FILE /home/runner/work/gf180-game-of-life-cell/gf180-game-of-life-cell/openlane/user_project_wrapper/runs/22_11_27_14_12/results/signoff/user_project_wrapper.magic.gds
+string GDS_FILE /home/runner/work/gf180-game-of-life-cell/gf180-game-of-life-cell/openlane/user_project_wrapper/runs/22_11_28_07_24/results/signoff/user_project_wrapper.magic.gds
 string GDS_START 462462
 << end >>
 
