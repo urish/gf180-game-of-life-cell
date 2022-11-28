@@ -51499,3 +51499,25 @@ endmodule
 
 //--------EOF---------
 
+
+primitive UDP_GF018hv5v_mcu_sc7_TT_5P0V_25C_verilog_pg_MGM_HN_IQ_FF_UDP( Q, C, P, CK, D, N );
+output Q;
+reg Q;
+input C, P, CK, D, N;
+table
+// C  P  CK D  N  :  Q  :  Q
+   0  0  n  ?  ?  :  ?  :  -;
+   ?  0  r  0  ?  :  ?  :  0;
+   ?  0  p  0  ?  :  0  :  0;
+   1  0  ?  ?  ?  :  ?  :  0;
+   0  ?  r  1  ?  :  ?  :  1;
+   0  ?  p  1  ?  :  1  :  1;
+   ?  1  ?  ?  ?  :  ?  :  1;
+   0  0  ?  *  ?  :  ?  :  -;
+   ?  ?  ?  ?  *  :  ?  :  x;
+   0  n  ?  ?  ?  :  ?  :  -;
+   n  0  ?  ?  ?  :  ?  :  -;
+   0  p  ?  ?  ?  :  ?  :  -;
+
+endtable
+endprimitive
